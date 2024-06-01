@@ -36,6 +36,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
 
+    transition: width .3s, heigth .3s; /*velocidade da transição*/
+    transition-timing-function: ease; /*Suavisar a transição*/
+
 }
 
 section#login > div#imagem {
