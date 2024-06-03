@@ -84,11 +84,12 @@ div.campo > span {
     padding: 5px;
 }
 
-div.cmpo > input {
+div.campo > input {
     background-color: #3dc7c2;
     font-size: 1em;
-    /*width*/
+    width: calc(100% - 45px);
     height: 100%;
+    transform: translateY(-11px);
     border: 0px;
     border-radius: 8px;
     padding: 4px;
